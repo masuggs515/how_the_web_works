@@ -1,0 +1,43 @@
+In your own terms, define the following terms:
+
+What is HTTP?
+http stands for hypertext transfer protocol. What a url using http will do is direct the browser to a URL by looking for an IP address on any server it can find.
+http is the language used to search for the url requested.
+
+What is a URL?
+a URL is the entire website combined. Starting with http, ftp, or https and adding the DNS, port (if needed but uncommon), specific html pages on the server with the found DNS
+and then any queries that have been input. 
+
+What is DNS?
+DNS is the domain name of the url. 
+www.google.com is the DNS of the example below.
+example: http://www.google.com/search/?q=I+want+pics
+
+What is a query string?
+query strings are anything after the DNS and file name that are extra information for the server to show. Most commonly this is after a request for specific information.
+In the above example ?q=I+want+pics is the query string
+
+What are two HTTP verbs and how are they different?
+GET and POST
+GET will receive information and show it in the browser. Any time you type in a url and got to a website a GET request is sent
+POST will alter the information on the site. Best example is any post on a social media site is called a "post" and is actually preformed by a POST request
+
+What is an HTTP request?
+Requests are what are sent from your browser(usually) to the requested server. 
+
+What is an HTTP response?
+Responses are what are sent back from the server to the client.
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+An http header is extra usually hidden information for a site.
+a response header could be Accept languange: which specifies what language the website should be in.
+a request header would be Accept: which can be used to request JSON be sent back in the response.
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+
+The client first translates the request in to http to search for the DNS in servers.
+The search starts at the computer you're working on and in the cache then extends to the router you're connected to and then ISP and then DNS server
+If the DNS is not found in any of these locations on this search it will return 404.
+If the DNS is found in any of these locations it will search for the remainder of the URL in the server. In the example it will search for the resourse after the DNS.
+No queries in example.
+Once found it will return the information to your browser and translate in to HTML and then in to readable content in the browser.
